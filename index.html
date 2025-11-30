@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>trial document</title>
+</head>
+<body >
+ <center style="font-size:40px;">Resume</center>
+  <br><hr width="1000">
+  <center><h1><p>Enter your details</p></h1></center>
+  <form class="form-border">
+    <div class="div-style">
+      <label style="font-size:small;">NAME:</label>
+       <input class="alignment" gap="10px" type="text" placeholder="Enter name">
+    </div>
+    <div class="div-style">
+      <label>Father Name:</label>
+    <input class="alignment" type="text" placeholder="Enter father name">
+    </div>
+ <div class="div-style">
+<label>Address:</label>
+<textarea class="alignment" aria-setsize="250" placeholder="Enter address"></textarea>
+</div>
+<div class="div-style">
+<label>Email ID:</label>
+ <input class="alignment" type="text" placeholder="Enter email id">
+</div>
+<div class="div-style">
+<label>Nationality:</label>
+<input class="alignment" type="text" placeholder="Enter nationality">
+</div>
+<div class="div-style">
+<label style="text-align: left;">Known Language:</label>
+<input class="alignment" type="text" placeholder="Enter language">
+</div>
+<center><button type="submit" style="font-weight: bolder;width: 80px;">SUBMIT</button>
+  <button type="reset" style="font-weight: bolder;width: 80px"> RESET </button>
+</center>
+</form>
+</body>
+</html>
+<style>
+  .alignment{
+   width: 100%;
+   align-items: center;
+   }
+  .form-border{
+    /*background-color:lightgray;*/
+    border: solid 2px black;
+    margin: 0px 100px;
+    padding: 40px 200px;
+    border-inline-start-width: 30px; 
+  }
+  .div-style{
+   margin-bottom: 15px;
+   margin-block: 30px;
+   display: flex;
+   }
+  label{
+    display: inline-block;
+    display: grid;
+    width: 140px;
+  } 
+  input{
+    border: 0.5px solid black;
+  }
+  textarea{
+    border: 0.5px solid black;
+  }
+</style>
